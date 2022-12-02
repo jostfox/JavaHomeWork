@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HomeWorkNineLTwo {
+public class HW_9_2_checked {
 
     public static void main(String[] args) {
 
