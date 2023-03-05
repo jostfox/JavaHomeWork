@@ -21,6 +21,7 @@ public class Phone {
         for (Phone phoneList : phoneArray) {
             System.out.println(number + "is calling to " + phoneList);
         }
+        scanner.close();
     }
 
     public void makeCallArray(Phone phoneOne, Phone phoneTwo, Phone phoneTree) {
@@ -31,6 +32,7 @@ public class Phone {
         for (Phone phoneList : phoneArray) {
             System.out.println(phoneList + " is calling to " + number);
         }
+        scanner.close();
     }
 }
 
